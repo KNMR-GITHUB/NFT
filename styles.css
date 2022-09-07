@@ -1,0 +1,133 @@
+body{
+  text-align: center;
+  background-color: hsl(217, 54%, 11%);
+}
+.card{
+  background-color: hsl(216, 50%, 16%);
+  width: 18%;
+  height: auto;
+  border-radius: 12px;
+  border-style: none;
+  margin: 100px auto 100px auto ;
+  padding: 22px;
+}
+.image-con{
+  position: relative;
+  border-style: none;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+.nft{
+  width: inherit;
+  height:inherit;
+  border-radius: 12px;
+  cursor:pointer;
+}
+.eye-con{
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left: 0;
+  border-color: blue;
+  display: none;
+  border-radius: 12px;
+}
+.eye{
+  position: absolute;
+  margin: auto;
+}
+
+.nft:hover{
+  width: inherit;
+  height:inherit;
+  border-radius: 12px;
+
+}
+.nft:hover ~ .eye-con{
+  display:flex;
+  background: 	rgb(0,255,255, 0.5);
+}
+.name{
+  color: white;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  font-weight: 600;
+}
+.name:hover{
+  color: cyan;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  font-weight: 600;
+}
+.desc{
+  color:hsl(215, 51%, 70%);
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+
+}
+.con{
+  height: auto;
+}
+.cost{
+
+  text-align: left;
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", sans-serif;
+  display: inline;
+  position: relative;
+  right: 30px;
+
+}
+.icon-ethereum{
+  position: relative;
+  top:3px;
+}
+.space{
+  display: inline;
+}
+.time{
+  color:hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  display: inline;
+  text-align: right;
+  position: relative;
+  left: 30px;
+}
+.clock{
+  position: relative;
+  top:3px;
+}
+.avatar{
+  width: 10%;
+  border-style: solid;
+  border-color: white;
+  border-radius: 100%;
+  border-width: 1px;
+  text-align:left;
+  position:relative;
+  top:9px;
+
+}
+.author{
+  color:hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  position: relative;
+  text-align: left;
+}
+span{
+  color: white;
+}
+span:hover{
+  color: cyan;
+}
+hr{
+  border-style: solid none none none;
+
+  color: hsl(215, 32%, 27%);
+}
